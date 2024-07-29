@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIGHT CANTEEN </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <a href="home.html" class="logo"><i class="fas fa-utensils"></i>Night Canteen</a>
+    </header>
+    <section class="login" id="login">
+
+        <div class="image">
+            <img src="images/SignUp-signIn.png" alt="Image"/>
+        </div>
+        
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-full-name">Full Name:</label>
+                    <input type="text" id="login-full-name" name="login-full-name" required>
+                  </div>
+              <div class="form-group">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="login-email" required>
+              </div>
+              <div class="form-group">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+              </div>
+              <button type="submit" class="btn">Login</button>
+            </form>
+            <p id="login-message" class="login-message"></p>
+            <p>New user? <a href="index.html">Signup here</a>.</p>
+          </div>
+    </section>      
+    <section class="footer">
+        <h1 class="credit">
+            created by <span>Sahil Chhillar</span> | all rights are reserved
+        </h1>
+    </section>
+    
+        <a href="#top" class="fas fa-angle-up" id="scroll-top"></a>
+    
+        <div class="loader-container">
+           <img src="images/loader.gif" alt="">
+        </div>
+    
+       <script src="login.js"></script> 
+    </body>
+    </html>
